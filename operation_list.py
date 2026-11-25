@@ -13,7 +13,7 @@ while True:
     if choice == 1:
         element = input("Enter the element to insert: ")
         list.append(element)
-    elif choice == 2:
+    elif choice == 2: 
         element = input("Enter the element to delete: ")
         if element in list:
             list.remove(element)
